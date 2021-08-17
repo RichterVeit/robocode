@@ -1,4 +1,4 @@
-package Space1;
+package 2109RC;
 import robocode.*;
 //import java.awt.Color;
 
@@ -7,7 +7,7 @@ import robocode.*;
 /**
  * Test1 - a robot by (your name here)
  */
-public class Test1 extends Robot
+public class BeispielRobot extends Robot
 {
 	/**
 	 * run: Test1's default behavior
@@ -23,6 +23,9 @@ public class Test1 extends Robot
 		// Robot main loop
 		while(true) {
 			// Replace the next 4 lines with any behavior you would like
+			ahead(50);
+			turnGunRight(360);
+			back(50);
 			turnGunRight(360);
 		}
 	}
